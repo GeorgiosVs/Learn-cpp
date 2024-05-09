@@ -1,0 +1,18 @@
+/*
+ Program in Cpp
+ Airport Terminal / Provides the User with Ticket / Destination Selection
+ Trip Selection / Luggage / Seat Selection / Ticket Info
+ */
+#include <iostream>
+#include "Management.h"         // Linking the Managment class
+using namespace std;
+
+int main() {
+    Management mainlogo;        //Create a variable for mainlogo
+    mainlogo.logo();            //Call main logo from class Management
+    
+    Management username;        //Create username for name() function comming from Management class
+    username.name();            //Here user imputs his/her username from Management class
+    
+    return 0;
+}
