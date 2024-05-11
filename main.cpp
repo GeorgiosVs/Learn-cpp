@@ -1,11 +1,14 @@
-/*Program in Cpp
- Airport Terminal*/
-#include <iostream>
-#include "Management.h"         // Linking the Managment class
+/*
+Πρόγραμμα σε C++
+Terminal Αεροδρομίου / Δημιουργία νέου χρήστη / Σύνδεση χρήστη / Επιλογή προορισμού
+Επιλογή μετ επιστροφής ή όχι / Επιλογή αποσκευών / Πληροφορίες εισητηρίου
+*/
+#include "Management.h"
 
 int main() {
-    Management mainlogo;
-    mainlogo.logo();
-    
+    Management manager;         //Δημιουργία αντικειμένου της κλάσης Management
+        manager.logo();         //Εμφάνιση Λογότυπου
+        manager.userChoice();   //Μενού επιλογών για τον χρήστη
+
     return 0;
 }
