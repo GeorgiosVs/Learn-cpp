@@ -1,7 +1,7 @@
 Document in Greek, English language for the current repository
 
 Αρχείο στα Ελληνικά και τα Αγγλικά για το συγκεκριμένο αποθετήριο
-
+------------------------------------------------------------------
 Creating diffrent functions in Cpp
 
 Δημιουργία διαφόρων συναρτήσεων στην γλώσσα C++
